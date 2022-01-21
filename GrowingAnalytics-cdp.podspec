@@ -34,7 +34,7 @@ GrowingAnalytics-cdp基于GrowingAnalytics,同样具备自动采集基本的用�
       tracker.dependency 'GrowingAnalytics-cdp/TrackerCore', s.version.to_s
       tracker.dependency 'GrowingAnalytics/MobileDebugger', s.version.to_s
       tracker.dependency 'FMDB/SQLCipher'
-      tracker.dependency 'GrowingAnalytics/Database', :git => "https://github.com/txy1042348976/growingio-sdk-ios-autotracker", :branch => 'master', s.version.to_s
+      tracker.dependency 'GrowingAnalytics/Database', :git => "https://github.com/txy1042348976/growingio-sdk-ios-autotracker", :branch => 'master'
       tracker.dependency 'GrowingAnalytics/Network', s.version.to_s
       tracker.dependency 'GrowingAnalytics/Encryption', s.version.to_s
       tracker.dependency 'GrowingAnalytics/Compression', s.version.to_s

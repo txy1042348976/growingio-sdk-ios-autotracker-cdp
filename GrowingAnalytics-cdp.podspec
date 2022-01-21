@@ -19,7 +19,7 @@ GrowingAnalytics-cdp基于GrowingAnalytics,同样具备自动采集基本的用�
   s.license          = { :type => 'Apache2.0', :file => 'LICENSE' }
   s.author           = { 'GrowingIO' => 'support@growingio.com' }
   s.source           = { :git => 'https://github.com/growingio/growingio-sdk-ios-autotracker-cdp.git', :tag => s.version.to_s }
-  s.subspec.source = { :git => 'https://github.com/txy1042348976/growingio-sdk-ios-autotracker.git', :branch => 'master' }
+  s.subspec.source   = { :git => 'https://github.com/txy1042348976/growingio-sdk-ios-autotracker' }
   s.ios.deployment_target = '8.0'
   s.ios.framework = 'WebKit'
   s.requires_arc = true

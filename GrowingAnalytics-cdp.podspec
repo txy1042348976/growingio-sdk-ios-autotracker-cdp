@@ -30,8 +30,7 @@ GrowingAnalytics-cdp基于GrowingAnalytics,同样具备自动采集基本的用�
   end
   
   s.subspec 'Tracker' do |tracker|
-      tracker.source = { :git => 'https://github.com/txy1042348976/growingio-sdk-ios-autotracker.git', :branch => 'master' }
-          tracker.source_files = 'GrowingTracker/**/*{.h,.m}'
+      tracker.source_files = 'GrowingTracker/**/*{.h,.m}'
       tracker.dependency 'GrowingAnalytics-cdp/TrackerCore', s.version.to_s
       tracker.dependency 'GrowingAnalytics/MobileDebugger', s.version.to_s
       tracker.dependency 'FMDB/SQLCipher'
